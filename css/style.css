@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f6f8f9;
+}
+
+header{
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.logo{
+  vertical-align: middle;
+}
+
+h1{
+  display: inline-block;
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.button{
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button-color{
+  background-color: #0080ff;
+}
+
+.action {
+  border-bottom: 2px solid #f6f8f9;
+  padding: 15px 30px;
+}
+
+.tasks{
+  margin: 20px 0 0 30px;
+}
+
+ul{
+  list-style: none;
+}
+
+.cerchio {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+  line-height: 15px;
+  font-size: 10px;
+  text-align: center;
+}
+.fatto {
+  border: 1px solid #2cc6ab;
+  color: #2cc6ab;
+  margin: 10px;
+}
+
+.fatto-cross{
+  border: 1px solid red;
+  color: red;
+  margin: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 30px;
+  color: #fff;
+}
+.tag-1{
+  background-color: green
+}
+
+.tag-2{
+  background-color:#8A2BE2;
+}
+
+.tag-3{
+  background-color: #0080ff;
+}
+
+h3{
+  font-weight: bolder;
+}
